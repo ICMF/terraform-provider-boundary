@@ -1,7 +1,7 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-FROM golang:1.21.8
+FROM golang:1.22.9
 
 WORKDIR /go/src/terraform-provider-boundary
 COPY . .
